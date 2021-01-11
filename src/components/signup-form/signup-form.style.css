@@ -1,0 +1,41 @@
+.form-group {
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    
+}
+
+.form-list {
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.051);
+    list-style-type: none;
+    min-width: 125px;
+    font-size: 25px;
+    color: #3ad1e5;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 2.419px 9.703px 12.48px rgba(58, 209, 229, 0.5);
+    text-align: left;
+}
+.form-control {
+        background-color: rgba(0, 0, 0, 0);
+        border:none !important;
+        text-shadow: none;
+        padding: 20px;
+        text-align: right;
+}
+.countdown li .c-title {
+
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.countdown li p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+}
