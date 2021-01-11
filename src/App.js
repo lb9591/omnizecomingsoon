@@ -4,6 +4,7 @@ import SweetAlert from 'react-bootstrap-sweetalert';
 import { CountDown } from "./components/countdown/countdown-component";
 import { Button } from '@material-ui/core'
 import { SignupForm } from "./components/signup-form/signup-form.component";
+import OmnizeLogo from './assets/images/omnize-logo.png';
 
 class App extends React.Component {
   constructor(props) {
@@ -35,7 +36,7 @@ handleClick = () => {
     return (
           <div className="coming-soon">
             <div className='coming-wrapper'>
-            <h1 className="title">OMNIZE</h1>
+            <img src={OmnizeLogo} alt="Omnize Logo" width='600px'/>
             <h1 className="title">BETA COMING SOON</h1>
             <CountDown />
             </div>
